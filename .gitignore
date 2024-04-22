@@ -1,0 +1,13 @@
+**/__pycache__/
+*.ipynb
+ckpts/
+results/
+figures/
+seabed_features/
+Sonar_pics_v1/
+Sonar_pics_v2/
+Sonar_pics_v3/
+seabed_features.zip
+Sonar pics_v1.zip
+Sonar pics_v2.zip
+Sonar_pics_v3.zip
