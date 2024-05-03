@@ -22,7 +22,11 @@ After data cleaning, 385 sidescan sonar images are included in SPDP dataset, cat
 4. homogenous pit bottom
 5. homogenous seabed outside pit  
 
-***SPDP dataset is not published. To get the dataset, please contact Wenqiang Zhang via wzhan46@lsu.edu.***
+### Data Structure
+The dataset is organized into five folders, each corresponding to one of the labeled classes. Each folder contains the SSS images in `jpg`.
+
+### Data Download
+You can download the entire dataset as a ZIP file from this [Google Drive](https://drive.google.com/file/d/10o5Gw7zQQ9FEStMFCVGx1lJKxseU8umv/view?usp=drive_link).
 
 ## Run Models
 
@@ -38,3 +42,8 @@ For example, to train EGC model, one can run `python ./train.py --config efficie
 After the training finishes, model achieving the best validation loss is saved in `./results/` and the training logs are saved in `./ckpts/`. 
 
 One can change the hyperparameters for any model in ```./configs/hyperpatrameters.py``` file.
+
+## Citation
+If you use this dataset in your research, please cite it as:
+
+`Wenqiang Zhang, Xiaobing Chen, Xiangwei Zhou, Jianhua Chen, Jianguo Yuan, Taibiao Zhao and Kehui Xu, "Using Deep Learning Methods to Identify Geomorphic Features in Dredge Pit Marine Environment", Journal of Marine Science and Engineering, under review.`
