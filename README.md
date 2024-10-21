@@ -1,22 +1,22 @@
 # Effective Geomorphology Classification model (EGC): A Deep Learning Model for Geomorphology Classification
 
-This repo implements serveral CNN-based models to identify five unique geomorphic features. Specifically the proposed EGC model
+This repo implements several CNN-based models to identify five unique geomorphic features. Specifically the proposed EGC model
 adopts EfficientNet as the backbone.
 
 ## Environment Setup
-This project is written by Python. To run the project, one must setup required python packages. Run following command to install packages:
+This project is written in Python. To run the project, one must set up the required python packages. Run the following command to install packages:
 
 ```pip install -r requirements.txt```
   
 ## Models
 
-Models can be found in models.py. Supported models include LetNet, VGG16, ResNet18, ResNet34, MobileNet, EfficientNet.
+Models can be found in models.py. Supported models include LetNet, VGG16, ResNet18, ResNet34, MobileNet, and EfficientNet.
 
 ## Sandy Point Dredge Pit (SPDP) Dataset
-To collect Sandy Point Dredge Pit (SPDP) dataset, we surveyed the Sandy Point dredge pit in September 2022 using a full suite of high-resolution geophysical instru-ments, including interferometric sonar for swath bathymetry, sidescan sonar, and CHIRP subbottom profiler.
+To collect the Sandy Point Dredge Pit (SPDP) dataset, we surveyed the Sandy Point dredge pit in September 2022 using a full suite of high-resolution geophysical instruments, including interferometric sonar for swath bathymetry, sidescan sonar, and CHIRP subbottom profiler.
 
-After data cleaning, 385 sidescan sonar images are included in SPDP dataset, categorized into five classes, including: 
-1. pit wall with rotational slump
+After data cleaning, 385 sidescan sonar images are included in the SPDP dataset, categorized into five classes, including: 
+1. pit wall with the rotational slump
 2. pit wall without rotational slump
 3. heterogenous pit bottom (sand-mud mixture)
 4. homogenous pit bottom
@@ -46,4 +46,4 @@ One can change the hyperparameters for any model in ```./configs/hyperpatrameter
 ## Citation
 If you use this dataset in your research, please cite it as:
 
-`Wenqiang Zhang, Xiaobing Chen, Xiangwei Zhou, Jianhua Chen, Jianguo Yuan, Taibiao Zhao and Kehui Xu, "Using Deep Learning Methods to Identify Geomorphic Features in Dredge Pit Marine Environment", Journal of Marine Science and Engineering, under review.`
+`Zhang W, Chen X, Zhou X, Chen J, Yuan J, Zhao T, Xu K. Deep Learning-Based Geomorphic Feature Identification in Dredge Pit Marine Environment. Journal of Marine Science and Engineering. 2024; 12(7):1091. https://doi.org/10.3390/jmse12071091`
